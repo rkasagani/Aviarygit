@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9417D39E196A826F00662465"
+               BlueprintIdentifier = "9417D3EA196AB86B00662465"
                BuildableName = "Aviary.app"
                BlueprintName = "Aviary"
                ReferencedContainer = "container:Aviary.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9417D3C7196A827000662465"
+               BlueprintIdentifier = "9417D40B196AB86B00662465"
                BuildableName = "AviaryTests.xctest"
                BlueprintName = "AviaryTests"
                ReferencedContainer = "container:Aviary.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9417D39E196A826F00662465"
+            BlueprintIdentifier = "9417D3EA196AB86B00662465"
             BuildableName = "Aviary.app"
             BlueprintName = "Aviary"
             ReferencedContainer = "container:Aviary.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9417D39E196A826F00662465"
+            BlueprintIdentifier = "9417D3EA196AB86B00662465"
             BuildableName = "Aviary.app"
             BlueprintName = "Aviary"
             ReferencedContainer = "container:Aviary.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9417D39E196A826F00662465"
+            BlueprintIdentifier = "9417D3EA196AB86B00662465"
             BuildableName = "Aviary.app"
             BlueprintName = "Aviary"
             ReferencedContainer = "container:Aviary.xcodeproj">
