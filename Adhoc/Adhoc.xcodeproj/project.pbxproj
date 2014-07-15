@@ -53,6 +53,7 @@
 		9417D456196ABA9700662465 /* AdhocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdhocTests-Info.plist"; sourceTree = "<group>"; };
 		9417D458196ABA9700662465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9417D45A196ABA9700662465 /* AdhocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdhocTests.m; sourceTree = "<group>"; };
+		9417D4791974FE6200662465 /* Adhoc copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Adhoc copy-Info.plist"; path = "/Users/saven/Desktop/Aviarygit/Adhoc/Adhoc copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +83,12 @@
 		9417D423196ABA9700662465 = {
 			isa = PBXGroup;
 			children = (
+				9417D4781974FE6100662465 /* Resources-iPad */,
 				9417D435196ABA9700662465 /* Adhoc */,
 				9417D454196ABA9700662465 /* AdhocTests */,
 				9417D42E196ABA9700662465 /* Frameworks */,
 				9417D42D196ABA9700662465 /* Products */,
+				9417D4791974FE6200662465 /* Adhoc copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +155,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9417D4781974FE6100662465 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +209,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = saven;
 				TargetAttributes = {
+					9417D42B196ABA9700662465 = {
+						DevelopmentTeam = 5Z325WSGEQ;
+					};
 					9417D44C196ABA9700662465 = {
 						TestTargetID = 9417D42B196ABA9700662465;
 					};
@@ -378,11 +391,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adhoc/Adhoc-Prefix.pch";
 				INFOPLIST_FILE = "Adhoc/Adhoc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,11 +406,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adhoc/Adhoc-Prefix.pch";
 				INFOPLIST_FILE = "Adhoc/Adhoc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

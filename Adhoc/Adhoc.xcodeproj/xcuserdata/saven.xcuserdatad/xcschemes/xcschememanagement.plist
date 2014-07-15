@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Adhoc copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Adhoc.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>9417D44C196ABA9700662465</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9417D4671974FE6000662465</key>
 		<dict>
 			<key>primary</key>
 			<true/>
